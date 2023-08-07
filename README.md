@@ -1,6 +1,8 @@
 # stable-diffusion-XL
 Notebooks para personalizar (fine-tuning) do modelo Stable Diffusion XL usando a nova lib `auto-train` da HuggingFace.
 
+**ATENÇÃO:** O treino dos modelos e a geração das imagens requer os notebooks rodando com ambiente de execução de GPU. Verifique o menu do colab "Ambiente de execução" (ou "Runtime") e escolha "GPU" (T4) na opção "Alterar o tipo de ambiente de execução"
+
 ### Instruções:
 1. Para treinar o seu modelo, abra o notebook 01 e siga as instruções contidas nele https://colab.research.google.com/github/marcelotournier/stable-diffusion-XL/blob/main/01_treinar_stable_diffusion_xl.ipynb
 2. Após o notebook 01 terminar de rodar, salvar o arquivo `pytorch_lora_weights.safetensors` para seu computador local
